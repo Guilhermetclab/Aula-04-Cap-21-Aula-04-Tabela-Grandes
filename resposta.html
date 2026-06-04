@@ -11,7 +11,7 @@
         }
 
         table {
-            width: 500px;
+            /* width: 500px; */
             border-collapse: collapse;
             /* Obrigatório para ter o título da tabela fixo */
             position: relative;
@@ -26,7 +26,7 @@
         thead,
         tfoot {
             background-color: gray;
-            color: white;
+            color: rgb(0, 0, 0);
         }
 
         thead>tr>th {
@@ -77,6 +77,8 @@
         tbody>tr:nth-child(2n) {
             background-color: white ;
 
+
+
         }
     </style>
 </head>
@@ -103,8 +105,8 @@
                     row - linhas 
                 -->
                 <th scope="col" style="width: 500px">Estado</th>
-                <th scope="col" style="width: 300px">População</th>
-                <th scope="col" style="width: 600px">Comando HTML Utilizado</th>
+                <th scope="col" style="width: 200px">População</th>
+                <th scope="col" style="width: 500px;">Comando HTML Utilizado</th>
             </tr>
 
         </thead>
@@ -115,27 +117,27 @@
                 <td><strong>'Negrito'</strong> e <mark>Destacado</mark> </td>
             </tr>
             <tr>
-                <td><i>Alagoas</i></td>
+                <td><em>Alagoas</em></td>
                 <td class="num">3.365.351</td>
                 <td><em>'Itálico'</em></td>
             </tr>
             <tr>
-                <td>Amapa</td>
+                <td><u>Amapa</u></td>
                 <td class="num">877.613</td>
                 <td><u>'Texto sublinhado'</u></td>
             </tr>
             <tr>
-                <td>Amazonas</td>
+                <td><del>Amazonas</del></td>
                 <td class="num">4.269.995</td>
                 <td><del>'Texto riscado'</del> e <u>'Texto Sublinhado'</u></td>
             </tr>
             <tr>
-                <td>Bahia</td>
+                <td><sup>Bahia</sup></td>
                 <td class="num">14.141.626</td>
                 <td><sup>'Texto sobescrito'</sup></td>
             </tr>
             <tr>
-                <td><abbr title="Ceará"></abbr>CE</td>
+                <td><abbr title="Ceará">CE</abbr></td>
                 <td class="num">9.240.580</td>
                 <td>'Abreviações'</td>
             </tr>
@@ -149,16 +151,68 @@
                 <td class="num">4.108.508</td>
                 <td><q>Citação curta</q></td>
             </tr>
+
+            <td><cite>Goiás</cite></td>
+                <td class="num">7.206.589</td>
+                <td><cite>'Citação de fonte'</cite></td>
+            </tr>
             <tr>
-                <td></td>
-                <td class="num">9.240.580</td>
-                <td>'Abreviações'</td>
+                <td><code>Maranhão</code></td>
+                <td class="num">6.775.805</td>
+                <td><code>Texto monoespaçado</code></td>
+            </tr> 
+            <tr>
+                <td><pre>Mato Grosso</pre></td>
+                <td class="num">3.658.813</td>
+                <td><pre>' 
+
+Texto pré-formatado
+
+'</pre></td>
+            </tr>  
+            <tr>
+                <td><small>Paraíba</small></td>
+                <td class="num">4.059.905</td>
+                <td><small>Texto pré-formatado</small></td>
+            </tr>   
+            <tr>
+                <td><sub>Piauí</sub></td>
+                <td class="num">3.281.480</td>
+                <td><sub>'Texto subscrtito'</sub></td>
+            </tr>   
+            <tr>
+                <td><blockquote>
+                    Rio de Janeiro
+                </blockquote></td>
+                <td class="num">16.054.524</td>
+                <td><blockquote>'Citação em bloco'</blockquote></td>
+            </tr> 
+            <tr>
+                <td><strong>Rio Grande do Sul</strong></td>
+                <td class="num">10.882.965</td>
+                <td><strong>'Negrito'</strong></td>
+            </tr> 
+            <tr>
+                <td><em>Rondônia</em></td>
+                <td class="num">1.616.379</td>
+                <td><em>'Itálico'</em></td>
+            </tr>
+            <tr>
+                <td><mark>Roraima</mark></td>
+                <td class="num">636.707</td>
+                <td><mark>'Citação em bloco'</mark></td>
+            </tr>
+            <tr>
+                <td><abbr title="Tocantins">TO</abbr></td>
+                <td class="num">1.607.363</td>
+                <td>'Abreviação'</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th scope="row">Total de Habitantes</th>
-                <td class="num"><strong>122.420.654</strong></td>
+                <th scope="row">Total da população estimada:</th>
+                <td class="num"><strong>95.713.104</strong></td>
+                <td></td>
             </tr>
 
         </tfoot>
